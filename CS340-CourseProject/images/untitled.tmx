@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="20" height="18" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="Ten" tilewidth="32" tileheight="32">
+  <image source="../../../../../../Pictures/Mobile Photos/i_2013082122501339.jpg" trans="ffefd2" width="3264" height="2448"/>
+ </tileset>
+ <tileset firstgid="7753" name="ten2" tilewidth="32" tileheight="32">
+  <image source="../../../../../../Pictures/Mobile Photos/i_2013082122495490.jpg" trans="ffefd2" width="3264" height="2448"/>
+ </tileset>
+ <tileset firstgid="15505" name="ten3" tilewidth="32" tileheight="32">
+  <image source="../../../../../../Pictures/Mobile Photos/i_2013082122500136.jpg" trans="ffefd2" width="3264" height="2448"/>
+ </tileset>
+ <layer name="Tile Layer 1" width="20" height="18">
+  <data encoding="base64" compression="zlib">
+   eJytU8ENADEI6iQ3V+d0nhvmXk0uRgJoH7xELFLjWSsu4928fqD0//kICq/S7HjKvc4bKi7SzzXmxdFD2lO/zj7yLMc3moc8sd1UvYqek7Xjl/GUPNQZSE/RZF6VXNnNoX/fyaRzo5P3TfEB8OxvkA==
+  </data>
+ </layer>
+ <objectgroup name="Object Layer 1" width="20" height="18" visible="0">
+  <object gid="19833" x="63" y="96"/>
+  <object gid="19833" x="128" y="130"/>
+  <object gid="19833" x="288" y="60"/>
+  <object gid="19833" x="481" y="63"/>
+  <object gid="19833" x="129" y="159"/>
+  <object gid="19832" x="574" y="514"/>
+  <object gid="19730" x="570" y="480"/>
+  <object gid="19729" x="543" y="480"/>
+  <object gid="19831" x="542" y="512"/>
+  <object gid="16872" x="606" y="539"/>
+  <object gid="16872" x="609" y="543"/>
+ </objectgroup>
+</map>

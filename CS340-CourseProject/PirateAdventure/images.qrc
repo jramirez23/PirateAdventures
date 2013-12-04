@@ -1,0 +1,15 @@
+<RCC>
+    <qresource prefix="/images">
+        <file alias="Image4_8.gif">Works/Image4_8.gif</file>
+        <file alias="Image5_4.gif">Works/Image5_4.gif</file>
+        <file alias="Image6_2.gif">Works/Image6_2.gif</file>
+        <file alias="Image7_3">Works/Image7_3.gif</file>
+        <file alias="level1 - Copy.png">Works/level1 - Copy.png</file>
+        <file alias="level1.png">Works/level1.png</file>
+        <file>Works/level1_2 - Copy.psd</file>
+        <file>Works/level1_3 - Copy.psd</file>
+        <file alias="bison">Works/SSF2T_M._Bison - Copy.gif</file>
+        <file>Works/SSF2T_sMall._Bison - Copy.gif</file>
+        <file alias="untitled2.png">Works/untitled2.png</file>
+    </qresource>
+</RCC>

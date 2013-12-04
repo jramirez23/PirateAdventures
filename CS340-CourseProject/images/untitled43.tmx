@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="3" height="6" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" source="../PirateAdventure/Works/eoe.tsx"/>
+ <layer name="Tile Layer 1" width="3" height="6" opacity="0.82">
+  <data encoding="base64" compression="zlib">
+   eJwNw1ERgCAUALD3rxZRiyBFgCJCETQm2922iNg9PL28TT5mi9Xma3c4/fxdovAGTA==
+  </data>
+ </layer>
+</map>

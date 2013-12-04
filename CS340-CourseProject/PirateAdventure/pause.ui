@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Pause</class>
+ <widget class="QDialog" name="Pause">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>565</width>
+    <height>407</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(255, 255, 255);</string>
+  </property>
+  <widget class="QLabel" name="pirate">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>201</width>
+     <height>151</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>../images/pirate.gif</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QProgressBar" name="progressBar">
+   <property name="geometry">
+    <rect>
+     <x>270</x>
+     <y>90</y>
+     <width>118</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="maximum">
+    <number>22</number>
+   </property>
+   <property name="value">
+    <number>0</number>
+   </property>
+  </widget>
+  <widget class="QLCDNumber" name="lcdNumber">
+   <property name="geometry">
+    <rect>
+     <x>270</x>
+     <y>50</y>
+     <width>64</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Raised</enum>
+   </property>
+   <property name="digitCount">
+    <number>3</number>
+   </property>
+   <property name="segmentStyle">
+    <enum>QLCDNumber::Outline</enum>
+   </property>
+   <property name="intValue" stdset="0">
+    <number>0</number>
+   </property>
+  </widget>
+  <widget class="QTabWidget" name="Weapons">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>170</y>
+     <width>551</width>
+     <height>151</height>
+    </rect>
+   </property>
+   <property name="currentIndex">
+    <number>0</number>
+   </property>
+   <widget class="QWidget" name="getAmmo">
+    <attribute name="title">
+     <string>Weapons</string>
+    </attribute>
+    <widget class="QPushButton" name="incSwordDamage">
+     <property name="geometry">
+      <rect>
+       <x>14</x>
+       <y>8</y>
+       <width>241</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: qconicalgradient(cx:0.5, cy:0.5, angle:176.9, stop:0 rgba(194, 255, 255, 255));</string>
+     </property>
+     <property name="text">
+      <string>Increase Sword Slasher Damage</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="incGunDamage">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>60</y>
+       <width>251</width>
+       <height>23</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: qconicalgradient(cx:0.5, cy:0.5, angle:176.9, stop:0 rgba(194, 255, 255, 255));</string>
+     </property>
+     <property name="text">
+      <string>Increase Gun Damage</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="incHookDamage">
+     <property name="geometry">
+      <rect>
+       <x>300</x>
+       <y>10</y>
+       <width>221</width>
+       <height>23</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: qconicalgradient(cx:0.5, cy:0.5, angle:176.9, stop:0 rgba(194, 255, 255, 255));</string>
+     </property>
+     <property name="text">
+      <string>Increase Hook Slash Damage</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="incBrokenGunDamage">
+     <property name="geometry">
+      <rect>
+       <x>300</x>
+       <y>60</y>
+       <width>221</width>
+       <height>23</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: qconicalgradient(cx:0.5, cy:0.5, angle:176.9, stop:0 rgba(194, 255, 255, 255));</string>
+     </property>
+     <property name="text">
+      <string>Increase Broken Gun Damage</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="getHealth">
+    <attribute name="title">
+     <string>Health</string>
+    </attribute>
+    <widget class="QPushButton" name="restoreHealth">
+     <property name="geometry">
+      <rect>
+       <x>80</x>
+       <y>10</y>
+       <width>381</width>
+       <height>32</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: qconicalgradient(cx:0.5, cy:0.5, angle:176.9, stop:0 rgba(194, 255, 255, 255));</string>
+     </property>
+     <property name="text">
+      <string>Restore Health</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="incHealth">
+     <property name="geometry">
+      <rect>
+       <x>80</x>
+       <y>60</y>
+       <width>381</width>
+       <height>32</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: qconicalgradient(cx:0.5, cy:0.5, angle:176.9, stop:0 rgba(194, 255, 255, 255));</string>
+     </property>
+     <property name="text">
+      <string>Increase Health</string>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>330</y>
+     <width>289</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout">
+    <item>
+     <widget class="QPushButton" name="resume">
+      <property name="text">
+       <string>Resume</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <spacer name="horizontalSpacer">
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+      <property name="sizeHint" stdset="0">
+       <size>
+        <width>118</width>
+        <height>20</height>
+       </size>
+      </property>
+     </spacer>
+    </item>
+    <item>
+     <widget class="QPushButton" name="exit">
+      <property name="text">
+       <string>Exit</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

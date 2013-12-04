@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="20" height="18" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="ten2" tilewidth="32" tileheight="32">
+  <image source="../../../../../../Pictures/Mobile Photos/i_2013082122495490.jpg" trans="ffefd2" width="3264" height="2448"/>
+ </tileset>
+ <tileset firstgid="7753" name="ten3" tilewidth="32" tileheight="32">
+  <image source="../../../../../../Pictures/Mobile Photos/i_2013082122500136.jpg" trans="ffefd2" width="3264" height="2448"/>
+ </tileset>
+ <tileset firstgid="15505" source="stf.tsx"/>
+ <tileset firstgid="15697" source="tiles.tsx"/>
+ <objectgroup name="Object Layer 3" width="20" height="18" visible="0"/>
+ <layer name="Tile Layer 1" width="20" height="18">
+  <data encoding="base64" compression="zlib">
+   eJytk8ENgzAMRRmhA6VLcssk5Zpe7CtsUCbBSFiyfm1iEIcnEiV68Y9DLcNQH6YJfEIzROsMvh7o9VAfd84/q4kdn84pWavunYXFOL28HLi9+/wJa9JnneR47+b1/M1ktWPrQxc5PluTZiUzjnzYby8b5sa8ke/K28zkjb7enfb6kTljFL7HfCz/76XnRD7C6x3/v9jX/cwpQPftPqUeDir3eoK+TN+u1vckG1yZVOg=
+  </data>
+ </layer>
+ <layer name="Tile Layer 2" width="20" height="18" opacity="0.93">
+  <data encoding="base64" compression="zlib">
+   eJytlEsKhDAQRD1YjhmYVdZ9QvfDgGLxqEpmRguaBNN5/VN727b+sH20t2wqd17HqryVyHU6eeo7y9PldO6V95Ka649898DTs1nfEpv9K/Ev1FWoUWOwXrJWdSXxfXF5uucpRuK5vXI4W9c/Mr6ds95NPGWy7uRHns7R+bp50999by7+TKNd65jwXO/df2LgfodPgbcSeUmcxS/53bEBewOJgcdU
+  </data>
+ </layer>
+</map>

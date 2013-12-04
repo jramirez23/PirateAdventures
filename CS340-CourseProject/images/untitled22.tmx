@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="20" height="18" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" source="../PirateAdventure/Works/eoe.tsx"/>
+ <tileset firstgid="528" source="stf.tsx"/>
+ <tileset firstgid="720" source="tiles.tsx"/>
+ <tileset firstgid="984" source="../PirateAdventure/Works/sjnKb.tsx"/>
+ <layer name="Tile Layer 1" width="20" height="18">
+  <data encoding="base64" compression="zlib">
+   eJx9U9ERgyAU83CG4gayAWwgG+gGZZPOXbwjdyGN/XiHkpi8FzCGZdl67aNSr9yrjDUSnswKXHmZdI4HvJhV9Vnjn86NVeGg8M68cxQw1TmNl5v35l293rSXROcamPbMfGC3ThN+efBRHeYDa4ZfxYd7dn0i1zoK32DvGlqcWTG+zOdc4H+S1medMefLfMwDfqE9nVWz52yf+JX0cQavdS71VT7Pgr5TmO+TOyvo6D8HP2iphruPF+1lowW/Nvyi0eP72OjbI/xmxmecjSby0Myr4aB37ieKHuexi5/jbIazh7mPZryi4ehs8M+iqZk6Xzx/Ac1SR2A=
+  </data>
+ </layer>
+ <layer name="Tile Layer 2" width="20" height="18">
+  <data encoding="base64" compression="zlib">
+   eJzVk0EOgyAQRVE4gu56IHoDPYSXUdd10R60Q/QnE2SASXXRn/zMQPJfBgLeGfMkx/LCftCjNaaxaQ+UGRM5ab/EC5pceaZaHmfwma44r8TW8HDWUDXzvchbu/fc0HTkwcnN1x333tu9h7mQlzi9Pa9zPK2u4IHBreGl8r/wYnU38HL+J56P3nPQTHV1Ol78H1AX8pv8YcwanvQfwEKt1RcE8CIk
+  </data>
+ </layer>
+ <layer name="Tile Layer 3" width="20" height="18">
+  <data encoding="base64" compression="zlib">
+   eJxjYMAPnjNh4oUs+PV4AOU9caj5x4QptpGAeRFA+UgCapABIffhA6S6D59fiTEP5FZkDPMryExsZhMyD8RGxiAAMxNbOGIzL42ZgUEUikFsfGphoA2o7gUTQo0oM261xJhHjDyl6ik1T5QZE1NiHqmAkHmg+IBhYuwmxX2DzTw2YLqeBMRTWEg3zwNLfpsMNQtGk2Ietvy2GEgvYUHQz5iIwwDi+EG7
+  </data>
+ </layer>
+ <layer name="Tile Layer 4" width="20" height="18">
+  <data encoding="base64" compression="zlib">
+   eJxjYGBg8GBhYPAEYmqBCKBZkXjME2FGxRvxqIW5DZcbRZlRMSHzYG7D50aYu2DmLaQwbNDNw+c+Ys0j1r/kuI9SgO4+cs38w4SaTnCZJ0qE+aHMmOkO2b2kmufKjJn2YPpo6T5ke/CBNmZI+KEDbHqJMQ8XgOnFFg6UmEdIjBTzcMXTUAAAoW4Rig==
+  </data>
+ </layer>
+ <layer name="Tile Layer 5" width="20" height="18">
+  <data encoding="base64" compression="zlib">
+   eJxjYBh4sJBl1DxKwEYqmzcKRsEoGBwAALe6A0o=
+  </data>
+ </layer>
+</map>
