@@ -79,6 +79,125 @@
     <number>50</number>
    </property>
   </widget>
+  <widget class="QTabWidget" name="Weapons">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>170</y>
+     <width>551</width>
+     <height>151</height>
+    </rect>
+   </property>
+   <property name="currentIndex">
+    <number>0</number>
+   </property>
+   <widget class="QWidget" name="getAmmo">
+    <attribute name="title">
+     <string>Weapons</string>
+    </attribute>
+    <widget class="QPushButton" name="incSwordDamage">
+     <property name="geometry">
+      <rect>
+       <x>14</x>
+       <y>8</y>
+       <width>241</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: qconicalgradient(cx:0.5, cy:0.5, angle:176.9, stop:0 rgba(194, 255, 255, 255));</string>
+     </property>
+     <property name="text">
+      <string>Increase Sword Slasher Damage</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="incGunDamage">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>60</y>
+       <width>251</width>
+       <height>23</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: qconicalgradient(cx:0.5, cy:0.5, angle:176.9, stop:0 rgba(194, 255, 255, 255));</string>
+     </property>
+     <property name="text">
+      <string>Increase Gun Damage</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="incHookDamage">
+     <property name="geometry">
+      <rect>
+       <x>300</x>
+       <y>10</y>
+       <width>221</width>
+       <height>23</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: qconicalgradient(cx:0.5, cy:0.5, angle:176.9, stop:0 rgba(194, 255, 255, 255));</string>
+     </property>
+     <property name="text">
+      <string>Increase Hook Slash Damage</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="incBrokenGunDamage">
+     <property name="geometry">
+      <rect>
+       <x>300</x>
+       <y>60</y>
+       <width>221</width>
+       <height>23</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: qconicalgradient(cx:0.5, cy:0.5, angle:176.9, stop:0 rgba(194, 255, 255, 255));</string>
+     </property>
+     <property name="text">
+      <string>Increase Broken Gun Damage</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="getHealth">
+    <attribute name="title">
+     <string>Health</string>
+    </attribute>
+    <widget class="QPushButton" name="restoreHealth">
+     <property name="geometry">
+      <rect>
+       <x>80</x>
+       <y>10</y>
+       <width>381</width>
+       <height>32</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: qconicalgradient(cx:0.5, cy:0.5, angle:176.9, stop:0 rgba(194, 255, 255, 255));</string>
+     </property>
+     <property name="text">
+      <string>Restore Health</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="incHealth">
+     <property name="geometry">
+      <rect>
+       <x>80</x>
+       <y>60</y>
+       <width>381</width>
+       <height>32</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: qconicalgradient(cx:0.5, cy:0.5, angle:176.9, stop:0 rgba(194, 255, 255, 255));</string>
+     </property>
+     <property name="text">
+      <string>Increase Health</string>
+     </property>
+    </widget>
+   </widget>
+  </widget>
   <widget class="QWidget" name="layoutWidget">
    <property name="geometry">
     <rect>
