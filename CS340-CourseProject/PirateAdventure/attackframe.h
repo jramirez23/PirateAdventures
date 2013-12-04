@@ -28,7 +28,26 @@ class attackframe : public QDialog
 public:
   explicit attackframe(QWidget *parent = 0);
   ~attackframe();
+    /**
+      * @brief startBattle  sets up game to fight off enemies
+      * @param etype1
+      * @param ehp1
+      * @param ex1
+      * @param ey1
+      * @param etype2
+      * @param ehp2
+      * @param ex2
+      * @param ey2
+      * @param etype3
+      * @param ehp3
+      * @param ex3
+      * @param ey3
+      */
      void startBattle(char etype1, int ehp1, int ex1, int ey1,char etype2, int ehp2, int ex2, int ey2, char etype3, int ehp3, int ex3, int ey3);
+     /**
+     * @brief getHero method is used to access Hero properties
+     * @return pointer to hero
+     */
     Character* getHero();
     int numPotions;
    // attackframe* ptr();//testing

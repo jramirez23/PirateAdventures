@@ -1,0 +1,102 @@
+\hypertarget{class_enemy}{\section{Enemy Class Reference}
+\label{class_enemy}\index{Enemy@{Enemy}}
+}
+Inheritance diagram for Enemy\-:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=3.000000cm]{class_enemy}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{class_enemy_a0638b6e9f11a72831051438dbf803d91}{{\bfseries Enemy} (int clev, int cx, int cy)}\label{class_enemy_a0638b6e9f11a72831051438dbf803d91}
+
+\item 
+\hypertarget{class_enemy_a0ebc35bd4cd41e81df912b6286426c46}{void {\bfseries set\-X} (int cx)}\label{class_enemy_a0ebc35bd4cd41e81df912b6286426c46}
+
+\item 
+\hypertarget{class_enemy_a1fab961fbc5b1fd1764515c1a00f424b}{void {\bfseries set\-Y} (int cy)}\label{class_enemy_a1fab961fbc5b1fd1764515c1a00f424b}
+
+\item 
+\hypertarget{class_enemy_aa07b45a0163d1c16326dc8706ec77414}{void {\bfseries set\-Turn} (bool cmove)}\label{class_enemy_aa07b45a0163d1c16326dc8706ec77414}
+
+\item 
+\hypertarget{class_enemy_a8742266192bffefd0746d5665e816463}{void {\bfseries set\-Move} (bool cmove)}\label{class_enemy_a8742266192bffefd0746d5665e816463}
+
+\item 
+\hypertarget{class_enemy_abdd71d2a54bf169ffb71801091704881}{int {\bfseries get\-X} ()}\label{class_enemy_abdd71d2a54bf169ffb71801091704881}
+
+\item 
+\hypertarget{class_enemy_a056667d7235d861cdc88ecfe2341ca90}{int {\bfseries get\-Y} ()}\label{class_enemy_a056667d7235d861cdc88ecfe2341ca90}
+
+\item 
+\hypertarget{class_enemy_a742cf2ff493fd15a4a11a13e20e60423}{bool {\bfseries get\-Move} ()}\label{class_enemy_a742cf2ff493fd15a4a11a13e20e60423}
+
+\item 
+\hypertarget{class_enemy_ad25491cf4bd75217a4d97318f0ec0677}{bool {\bfseries get\-Turn} ()}\label{class_enemy_ad25491cf4bd75217a4d97318f0ec0677}
+
+\item 
+\hypertarget{class_enemy_ab1c5ecbd2567b509a5d4492764a28f5d}{int {\bfseries get\-H\-P} ()}\label{class_enemy_ab1c5ecbd2567b509a5d4492764a28f5d}
+
+\item 
+\hypertarget{class_enemy_a32c6b8b1784ff8301c1cb20d969bb6bb}{int {\bfseries getmax\-H\-P} ()}\label{class_enemy_a32c6b8b1784ff8301c1cb20d969bb6bb}
+
+\item 
+\hypertarget{class_enemy_a4c6c4bfd244315ba6cfd338428f33d48}{bool {\bfseries get\-Alive} ()}\label{class_enemy_a4c6c4bfd244315ba6cfd338428f33d48}
+
+\item 
+\hypertarget{class_enemy_aa9ed76dea0526fba28e15e9667a9eb25}{void {\bfseries set\-Alive} (bool is\-Alive)}\label{class_enemy_aa9ed76dea0526fba28e15e9667a9eb25}
+
+\item 
+\hypertarget{class_enemy_a56e4b9b07e8cd2a4e5ecfa8ff5b9265a}{virtual void {\bfseries do\-Turn} (\hyperlink{class_character}{Character} $\ast$Hero)}\label{class_enemy_a56e4b9b07e8cd2a4e5ecfa8ff5b9265a}
+
+\item 
+\hypertarget{class_enemy_a577a10f1cd0eb2bdd7f600c63044b010}{bool {\bfseries get\-Damaged} (int damage)}\label{class_enemy_a577a10f1cd0eb2bdd7f600c63044b010}
+
+\item 
+\hypertarget{class_enemy_a17b20f01b5af2ca88c844fb0f072f4fc}{void {\bfseries get\-Restored} (int recovery)}\label{class_enemy_a17b20f01b5af2ca88c844fb0f072f4fc}
+
+\item 
+\hypertarget{class_enemy_a7eb85dffc1f22c21eb6ff805192f3818}{virtual Q\-Image {\bfseries get\-Pic} ()}\label{class_enemy_a7eb85dffc1f22c21eb6ff805192f3818}
+
+\item 
+\hypertarget{class_enemy_a3251244e8e7ac657687d6be5a8da71bb}{virtual void {\bfseries draw\-Self} (Q\-Painter $\ast$g, int gx, int gy)}\label{class_enemy_a3251244e8e7ac657687d6be5a8da71bb}
+
+\end{DoxyCompactItemize}
+\subsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{class_enemy_ab685146410b2972ccab930a522fd9252}{int {\bfseries xpos}}\label{class_enemy_ab685146410b2972ccab930a522fd9252}
+
+\item 
+\hypertarget{class_enemy_a7cb1bc241abdacc846ae2313f2a54bbc}{int {\bfseries ypos}}\label{class_enemy_a7cb1bc241abdacc846ae2313f2a54bbc}
+
+\item 
+\hypertarget{class_enemy_a2891f607bd7c05774ab7efaf155c1842}{int {\bfseries current\-H\-P}}\label{class_enemy_a2891f607bd7c05774ab7efaf155c1842}
+
+\item 
+\hypertarget{class_enemy_a990ecf4cbfdae850b51e6fb2b367ad8e}{int {\bfseries max\-H\-P}}\label{class_enemy_a990ecf4cbfdae850b51e6fb2b367ad8e}
+
+\item 
+\hypertarget{class_enemy_a09d68a627f0f664d0dd3ac8063dd5cb3}{int {\bfseries in\-Turn}}\label{class_enemy_a09d68a627f0f664d0dd3ac8063dd5cb3}
+
+\item 
+\hypertarget{class_enemy_a5bbd6ff8c998dc4a67badee154c9e453}{int {\bfseries canmove}}\label{class_enemy_a5bbd6ff8c998dc4a67badee154c9e453}
+
+\item 
+\hypertarget{class_enemy_a02481d9c8d5b64d4d83556e047fcda7b}{bool {\bfseries Alive}}\label{class_enemy_a02481d9c8d5b64d4d83556e047fcda7b}
+
+\item 
+\hypertarget{class_enemy_a4754b00e9ff05f83a293f74324016c17}{int {\bfseries level}}\label{class_enemy_a4754b00e9ff05f83a293f74324016c17}
+
+\item 
+\hypertarget{class_enemy_a4969f2e5372ae6840aba5cd0b8059a0a}{int {\bfseries damage}}\label{class_enemy_a4969f2e5372ae6840aba5cd0b8059a0a}
+
+\end{DoxyCompactItemize}
+
+
+The documentation for this class was generated from the following files\-:\begin{DoxyCompactItemize}
+\item 
+enemy.\-h\item 
+enemy.\-cpp\end{DoxyCompactItemize}
