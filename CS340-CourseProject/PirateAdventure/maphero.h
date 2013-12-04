@@ -10,10 +10,13 @@ class MapHero : public QGraphicsItem
 {
 public:
     MapHero(QGraphicsItem *parent = 0); // NULL
-    Pause *pause;
+    //Pause *pause;
     MapEnemy *enemon;
     attackframe* battle;
     void pointToEnemy(MapEnemy *enemy);
+
+
+
 
 protected:
     void paint(QPainter *painter, const QStyleOptionGraphicsItem *option, QWidget *widget);
@@ -22,7 +25,7 @@ protected:
 
 private:
     int heroImage;
-    // Pause *pause;
+    Pause *pause;
 };
 
 #endif //MAPHERO_H

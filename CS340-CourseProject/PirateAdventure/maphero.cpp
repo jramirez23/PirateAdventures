@@ -10,7 +10,11 @@ MapHero::MapHero(QGraphicsItem *parent) : QGraphicsItem(parent)
     heroImage = 3;
     battle= new attackframe();
     pause->hero=battle->getHero ();
+    pause->on_progressBar_valueChanged (pause->hero->getHP());
+
 }
+
+
 void MapHero::pointToEnemy(MapEnemy *enemy)
 {
     enemon = enemy;

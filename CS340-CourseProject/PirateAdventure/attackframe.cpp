@@ -72,6 +72,10 @@ attackframe::~attackframe()
     delete ui;
 }
 
+//attackframe* attackframe:: ptr(){//testing
+//    return this;
+//}
+
 //return a pointer to the charcter Hero
 Character* attackframe::getHero(){
     return Hero;

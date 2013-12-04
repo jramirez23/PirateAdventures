@@ -8,10 +8,6 @@ Pause::Pause(QWidget *parent) :
     ui(new Ui::Pause)
 {
     ui->setupUi(this);
-    hero; //so not new attackframe?
-
-
-
 
 }
 
@@ -28,4 +24,9 @@ void Pause::on_resume_clicked()
 void Pause::on_exit_clicked()
 {
     exit(0);
+}
+
+void Pause::on_progressBar_valueChanged(int value)
+{
+    value=hero->getHP();
 }

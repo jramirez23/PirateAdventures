@@ -1,7 +1,7 @@
 /****************************************************************************
 ** Meta object code from reading C++ file 'pause.h'
 **
-** Created: Tue Dec 3 20:27:59 2013
+** Created: Wed Dec 4 04:21:20 2013
 **      by: The Qt Meta Object Compiler version 63 (Qt 4.8.4)
 **
 ** WARNING! All changes made in this file will be lost!
@@ -23,7 +23,7 @@ static const uint qt_meta_data_Pause[] = {
        6,       // revision
        0,       // classname
        0,    0, // classinfo
-       2,   14, // methods
+       3,   14, // methods
        0,    0, // properties
        0,    0, // enums/sets
        0,    0, // constructors
@@ -31,14 +31,16 @@ static const uint qt_meta_data_Pause[] = {
        0,       // signalCount
 
  // slots: signature, parameters, type, tag, flags
-       7,    6,    6,    6, 0x08,
-      27,    6,    6,    6, 0x08,
+       7,    6,    6,    6, 0x0a,
+      27,    6,    6,    6, 0x0a,
+      51,   45,    6,    6, 0x0a,
 
        0        // eod
 };
 
 static const char qt_meta_stringdata_Pause[] = {
     "Pause\0\0on_resume_clicked()\0on_exit_clicked()\0"
+    "value\0on_progressBar_valueChanged(int)\0"
 };
 
 void Pause::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
@@ -49,10 +51,10 @@ void Pause::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void 
         switch (_id) {
         case 0: _t->on_resume_clicked(); break;
         case 1: _t->on_exit_clicked(); break;
+        case 2: _t->on_progressBar_valueChanged((*reinterpret_cast< int(*)>(_a[1]))); break;
         default: ;
         }
     }
-    Q_UNUSED(_a);
 }
 
 const QMetaObjectExtraData Pause::staticMetaObjectExtraData = {
@@ -87,9 +89,9 @@ int Pause::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
     if (_id < 0)
         return _id;
     if (_c == QMetaObject::InvokeMetaMethod) {
-        if (_id < 2)
+        if (_id < 3)
             qt_static_metacall(this, _c, _id, _a);
-        _id -= 2;
+        _id -= 3;
     }
     return _id;
 }

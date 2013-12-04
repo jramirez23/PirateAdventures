@@ -10,6 +10,8 @@
 #include <QEvent>
 #include "attackframe.h"
 
+
+
 namespace Ui {
 class Pause;
 }
@@ -21,18 +23,27 @@ class Pause : public QDialog
 public:
     explicit Pause(QWidget *parent = 0);
     ~Pause();
-     Character* hero; //so not attackframe* hero?
+     Character* hero;
+      //attackframe* obj;
+
+
 
 
     
-private slots:
+public slots:
     void on_resume_clicked();
 
     void on_exit_clicked();
 
+    void on_progressBar_valueChanged(int value);
+
 private:
     Ui::Pause *ui;
-    //Getting pointer to character hero
+
+
+
+
+
 
 };
 
